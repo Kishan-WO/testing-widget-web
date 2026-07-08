@@ -8,6 +8,7 @@ const envVariables = {
   development: {
     environment: 'development',
     baseAPIUrl: 'https://jot-sandbag-smoky.ngrok-free.dev/api',
+    iFrameCDN: 'http://localhost:5173',
     localePath: 'https://testingwidget.netlify.app/widget/locales',
     cdnUrl: 'https://testingwidget.netlify.app/widget',
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
