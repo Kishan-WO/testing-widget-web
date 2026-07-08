@@ -15,7 +15,7 @@ const envVariables = {
     cdnUrl: widgetBaseUrl,
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
     dashboardUrl: 'https://jot-sandbag-smoky.ngrok-free.dev',
-    guidyQueueUrl: 'http://localhost:8080',
+    guidyQueueUrl: 'https://cute-cameras-open.loca.lt',
   },
   staging: {
     environment: 'staging',
