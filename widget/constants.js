@@ -14,7 +14,7 @@ const envVariables = {
     localePath: `${widgetBaseUrl}/locales`,
     cdnUrl: widgetBaseUrl,
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
-    dashboardUrl: 'https://late-clowns-pick.loca.lt',
+    dashboardUrl: 'https://jot-sandbag-smoky.ngrok-free.dev',
     guidyQueueUrl: 'https://cute-cameras-open.loca.lt',
   },
   staging: {
