@@ -10,7 +10,7 @@ const envVariables = {
   development: {
     environment: 'development',
     baseAPIUrl: 'https://late-clowns-pick.loca.lt/api',
-    iFrameCDN: 'http://localhost:5173',
+    iFrameCDN: 'https://evil-readers-yawn.loca.lt',
     localePath: `${widgetBaseUrl}/locales`,
     cdnUrl: widgetBaseUrl,
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
