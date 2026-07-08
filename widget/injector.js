@@ -78,6 +78,7 @@ function verifySubscription(accountKey) {
         'Content-Type': 'application/json',
         Site: window.location.href,
         IsMobile: isMobileDevice(),
+        'ngrok-skip-browser-warning': 'true',
       },
     })
       .then((response) => {
