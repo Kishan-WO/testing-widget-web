@@ -3,16 +3,14 @@ import { getBrowserName, getDeviceType, sendClickEvent } from './service.js';
 export const isWoTestExists = true;
 window.isWoTestExists = isWoTestExists;
 const environment = 'development';
-const siteOrigin = window.location.origin;
-const widgetBaseUrl = `${siteOrigin}/widget`;
 
 const envVariables = {
   development: {
     environment: 'development',
-    baseAPIUrl: 'https://late-clowns-pick.loca.lt/api',
+    baseAPIUrl: 'https://jot-sandbag-smoky.ngrok-free.dev/api',
     iFrameCDN: 'https://evil-readers-yawn.loca.lt',
-    localePath: `${widgetBaseUrl}/locales`,
-    cdnUrl: widgetBaseUrl,
+    localePath: 'https://testingwidget.netlify.app/widget/locales',
+    cdnUrl: 'https://testingwidget.netlify.app/widget',
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
     dashboardUrl: 'https://jot-sandbag-smoky.ngrok-free.dev',
     guidyQueueUrl: 'https://cute-cameras-open.loca.lt',
