@@ -146,6 +146,9 @@ export const getImageAlts = async () => {
       `${baseAPIUrl}/imageAlt/${getAccountKey(cdnUrl)}/existing-images?url=${pageUrl}`,
       {
         method: 'GET',
+        headers: {
+          'ngrok-skip-browser-warning': 'true',
+        },
       }
     );
 
@@ -185,6 +188,7 @@ export const callGuidyDashboard = async (data) => {
         method: 'POST',
         headers: {
           Site: window.location.href,
+          'ngrok-skip-browser-warning': 'true',
         },
         body: JSON.stringify(data),
       }

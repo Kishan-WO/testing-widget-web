@@ -6,6 +6,7 @@ export const sendClickEvent = (data, widgetCode) => {
     body: JSON.stringify(data),
     headers: {
       Site: window.location.href,
+      'ngrok-skip-browser-warning': 'true',
     },
   })
     .then((res) => res.json())

@@ -58,6 +58,7 @@ export async function resolveRules() {
           'Content-Type': 'application/json',
           Site: window.location.href,
           IsMobile: isMobileDevice(),
+          'ngrok-skip-browser-warning': 'true',
         },
       }
     );
