@@ -9,12 +9,12 @@ const widgetBaseUrl = `${siteOrigin}/widget`;
 const envVariables = {
   development: {
     environment: 'development',
-    baseAPIUrl: 'https://jot-sandbag-smoky.ngrok-free.dev/api',
+    baseAPIUrl: 'https://late-clowns-pick.loca.lt/api',
     iFrameCDN: 'http://localhost:5173',
     localePath: `${widgetBaseUrl}/locales`,
     cdnUrl: widgetBaseUrl,
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
-    dashboardUrl: 'https://jot-sandbag-smoky.ngrok-free.dev',
+    dashboardUrl: 'https://late-clowns-pick.loca.lt',
     guidyQueueUrl: 'https://cute-cameras-open.loca.lt',
   },
   staging: {
