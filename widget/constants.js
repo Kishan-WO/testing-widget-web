@@ -7,12 +7,12 @@ const environment = 'development';
 const envVariables = {
   development: {
     environment: 'development',
-    baseAPIUrl: 'https://tall-banks-shake.loca.lt/api',
+    baseAPIUrl: 'https://jot-sandbag-smoky.ngrok-free.dev/api',
     iFrameCDN: 'https://green-shoes-slide.loca.lt',
     localePath: 'https://silly-babka-6b00ba.netlify.app/widget/locales',
     cdnUrl: 'https://silly-babka-6b00ba.netlify.app/widget',
     staticPath: 'https://staging-widget.braoza.com/v1/assets/static-assets/',
-    dashboardUrl: 'https://tall-banks-shake.loca.lt',
+    dashboardUrl: 'https://jot-sandbag-smoky.ngrok-free.dev',
     guidyQueueUrl: 'https://lemon-wombats-melt.loca.lt',
   },
   staging: {
